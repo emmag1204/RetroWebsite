@@ -1,0 +1,135 @@
+/* CSS Styles 
+   Emma Alfaro A01740229 */
+@font-face{
+    font-family: "MiFuente";
+    src: url(font/upheavtt.ttf) format("truetype");
+}
+body{
+    background-color: navy;
+    color: white;
+    font-family: "MiFuente";
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;    
+    color: white;
+}
+.nombre{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+    padding-left: 0;
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.titulo-izquierda{
+    padding-left: 7rem;
+    float: left;
+    height: 7rem;
+}
+.titulo-derecha{
+    padding-right: 6rem;
+    float: right;
+    height: 6.5rem;
+}    
+.game-list{
+    text-align: center;
+    display: grid;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.juego{
+    height: 25rem;
+    width: 25rem;
+    margin-top: 0.5rem;
+    border-radius: 15%;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+.game-view{
+    text-align: center;
+}
+.yo{
+    background-color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.container {
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.pixel2 {
+font-size: 3rem;
+height: auto;
+position: relative;
+display: inline-block;
+vertical-align: top;
+text-transform: uppercase;
+
+
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin-bottom: 1rem;
+}
+.pixel2:active {
+top: 2px;
+}
+.pixel2 {
+text-transform: uppercase;
+font-size: 25px;
+}
+.pixel2::before {
+content: "";
+position: absolute;
+top: 10px;
+bottom: 10px;
+left: -10px;
+right: -10px;
+background: red;
+z-index: -1;
+}
+
+.pixel2::after {
+content: "";
+position: absolute;
+top: 4px;
+bottom: 4px;
+left: -6px;
+right: -6px;
+background: red;
+z-index: -1;
+}
+
+.pixel2 {
+padding: 10px 10px;
+position: relative;
+background: red;
+}
